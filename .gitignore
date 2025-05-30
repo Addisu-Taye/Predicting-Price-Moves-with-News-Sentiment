@@ -1,0 +1,98 @@
+# ----------------------------
+# Python Bytecode and Cache
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ----------------------------
+# Jupyter Notebook
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# IDE and Editor Settings
+# ----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------------
+# Environments
+# ----------------------------
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ----------------------------
+# System Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Logs and Temporary Files
+# ----------------------------
+*.log
+*.tmp
+*.out
+
+# ----------------------------
+# Data Files (ignore all in data/ except README.md or .gitkeep)
+# ----------------------------
+data/
+!data/**/README.md
+!data/**/.gitkeep
+
+# Ignore common data formats
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.db
+*.sqlite
+*.zip
+*.gz
+
+# ----------------------------
+# Models and Intermediate Files
+# ----------------------------
+models/
+checkpoints/
+*.pt
+*.pth
+*.hdf5
+
+# ----------------------------
+# Testing and Coverage
+# ----------------------------
+.pytest_cache/
+.mypy_cache/
+.tox/
+.nox/
+coverage.xml
+htmlcov/
+.cache/
+*.cover
+*.py,cover
+.coverage
+
+# ----------------------------
+# Jupyter Lab
+# ----------------------------
+.lab/
+
+# ----------------------------
+# Notebooks
+# ----------------------------
+notebooks/*.nbconvert.ipynb
