@@ -96,3 +96,4 @@ htmlcov/
 # Notebooks
 # ----------------------------
 notebooks/*.nbconvert.ipynb
+# temp
