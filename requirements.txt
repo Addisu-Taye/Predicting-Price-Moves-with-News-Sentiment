@@ -1,0 +1,10 @@
+streamlit
+pandas
+matplotlib
+seaborn
+scikit-learn
+numpy
+plotly
+nltk
+textblob
+ta  # if you used technical analysis features
