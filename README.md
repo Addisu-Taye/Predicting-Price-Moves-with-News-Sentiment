@@ -14,26 +14,7 @@ Extract technical indicators such as RSI, MACD, Bollinger Bands, and ATR
 Investigate correlations between news sentiment and stock price changes
 The goal is to understand whether news sentiment has a measurable impact on stock prices and how technical indicators can help identify market trends.
 
-📁 Repository Structure
-predicting-price-moves/
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── news.csv             # Cleaned news headlines
-│   └── stocks/              # Historical stock data by ticker
-│       ├── AAPL.csv
-│       ├── MSFT.csv
-│       └── ...              # Other company tickers
-├── notebooks/
-│   ├── eda.ipynb            # Exploratory Data Analysis
-│   ├── sentiment_analysis.ipynb  # NLP-based sentiment classification
-│   ├── technical_indicators.ipynb  # RSI, MACD, Bollinger Bands
-│   └── correlation_study.ipynb   # Correlation between news and prices
-├── src/
-│   ├── utils.py             # Helper functions
-│   └── analysis.py          # Core logic for analysis
-└── reports/
-    └── findings_summary.pdf # Summary of key insights and recommendations
+
 🔍 Key Insights
 Financial News Dataset
 Total headlines: 1,407,328
@@ -110,4 +91,4 @@ MIT License – see LICENSE for details.
 
 📬 Contact
 For questions or collaboration opportunities, contact:
-📧 Addisu Taye – addisu.taye@novafinancialsolutions.com
+📧 Addisu Taye – addtaye@gmail.com
